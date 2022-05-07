@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+
+/*end of css reset*/
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+
+body {
+    width: 100%;
+    height: auto;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #ffeedf
+}
+
+.primary-color {
+    background-color: #ffeedf;
+}
+
+.secondary-color {
+    background-color: #145434;
+}
+
+#root {
+    max-width: 1280px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#root .header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid;
+    margin-bottom: 60px;
+    color: #145434;
+}
+
+#root .header h1,
+#root .header span {
+    font-size: 36px;
+}
+
+#root .card-container {
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+
+#root .card-container .card {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    color: #ffeedf;
+}
+
+#root .card-container .card .number {
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid #145434;
+    color: #145434;
+}
+
+#root .card-container .card button {
+    position: relative;
+    top: 55px;
+    left: 180px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #145434;
+    color: #145434;
+    font-size: 14px;
+}
+
+#root .card-container .card button:hover {
+    border: 2px solid #ffeedf;
+    background-color: #145434;
+    color: #ffeedf;
+}
+
+#root .card-container .card5 button,
+#root .card-container .card8 button,
+#root .card-container .card10 button {
+    position: relative;
+    top: 10px;
+}
+
+#root .card-container .card button span:nth-child(1) {
+    padding-left: 50px;
+    font-size: 14px;
+}
+
+#root .card-container .card button span:nth-child(2) {
+    font-size: 36px;
+}
+
+#root .card-container .card .number span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+
+#root .card-container .card .cardText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#root .card-container .card .cardText hr {
+    position: relative;
+    border: 1px solid;
+}
+
+#root .card-container .card .cardText h2 {
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+#root .card-container .card .cardText p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#root .card-container .card .cardText p:nth-child(3) {
+    font-weight: bold;
+}
